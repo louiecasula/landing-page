@@ -19,7 +19,7 @@ a {
 .navbar {
     display: flex;
     margin-top: 20px;
-    margin-left: 160px;
+    margin-left: 180px;
     margin-right: 160px;
 }
 
@@ -37,7 +37,35 @@ a {
     flex: 1;
 }
 
-.link a {
+.link a, .blue-item p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.blue-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.blue-item {
+    width: 460px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f9faf8;
+    border: none;
 }
