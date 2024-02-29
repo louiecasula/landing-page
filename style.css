@@ -72,6 +72,8 @@ button {
 }
 
 .white-container {
+    color: white;
+    color: #1f2937;
     display: flex;
     flex: auto;
     flex-direction: column;
@@ -83,7 +85,6 @@ button {
 h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
 }
 
 .square-container {
@@ -108,4 +109,33 @@ h2 {
     align-items: center;
     width: 160px;
     height: 160px;
+}
+
+.grey-container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    height: 400px;
+    justify-content: center;
+    padding-left: 340px;
+    padding-right: 340px;
+}
+
+.quote {
+    display: flex;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: light;
+    justify-content: center;
+    margin: 0;
+}
+
+.author h3 {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px;
 }
